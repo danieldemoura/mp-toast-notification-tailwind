@@ -74,6 +74,6 @@ export function showNotification() {
 	selectInputRadio();
 	renderNotification();
 
-	const notificationSound = new Audio('../sound/sound-facebook.mp3');
+	const notificationSound = new Audio('./src/sound/sound-facebook.mp3');
 	notificationSound.play();
 }
