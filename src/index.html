@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<title>Toast Notification</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body class="bg-gray-800 grid place-content-center h-screen overflow-hidden">
+	<div class="flex flex-col gap-2 text-white absolute bottom-[33px] left-[38px]">
+		<label>
+			<input type="radio" name="position" data-position="default"/>
+			<span class="ml-2">Padrão</span>
+		</label>
+		<label>
+			<input type="radio" name="position" data-position="top"/>
+			<span class="ml-2">Superior esquerdo</span>
+		</label>
+		<label>
+			<input type="radio" name="position" data-position="bottom"/>
+			<span class="ml-2">Inferior direito</span>
+		</label>
+	</div>
+
+	<div class="flex flex-col gap-6">
+		<button class="btn-primary" data-btn="show">Mostrar Notificação</button>
+	</div>
+
+	<div class="absolute flex flex-col justify-start gap-[15px] transition-all" data-container>
+	</div>
+
+	<script src="./main.js" type="module"></script>
+</body>
+</html>

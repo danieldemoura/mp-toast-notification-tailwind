@@ -1,0 +1,20 @@
+{
+  "name": "mp-toast-notification-tailwind",
+  "version": "1.0.0",
+  "description": "Aprimore a experiência do usuário em seu projeto web com uma toast notification animada desenvolvida com Tailwind CSS. Neste mini projeto, vamos explorar como criar uma notificação flutuante elegante e interativa que chama a atenção do usuário de forma sutil e eficaz.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i styles.css -o src/css/styles.css --watch",
+    "server": "npx http-server src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.12"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "postcss": "^8.4.47"
+  }
+}
