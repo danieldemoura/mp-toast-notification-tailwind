@@ -19,9 +19,18 @@ Aprimore a experiência do usuário em seu projeto web com uma toast notificatio
 ## 🎨 Design Sugerido
 Temos uma sugestão de design no Figma. Mas sinta-se livre para utilizar a criatividade e fazer o seu próprio estilo de notificação.
 
+## Objetivos Alcançados
+Desde os requisitos e desafios extras eu consegui completar como foi peidido, além disso, implementei a feature de salvar em localStorage a opção que posiciona as notificações na parte superior esquerda e na parte inferior direita.<br/>
+✅ Funcionalidade de mostrar a notificação<br/>
+✅ Fecha a notificação automaticamente após 5 segundos<br/>
+✅ Botão que permiti fechar a notificação manualmente<br/>
+✅ Funcionalide de trocar a posição onde vai aparece a notificação<br/>
+✅ Som de notificação<br/>
+✅ Salvar a opção selecionada pelo usuário<br/>
+
 🔗 [Acesse o link do Figma](https://www.figma.com/file/suvmja6210ggZOO6Cpehjl/Mini-Projetos---Codante.io?type=design&node-id=842-2&t=oN6VwRLUthsAP1Uv-0)
 
-![image](https://github.com/codante-io/mp-toast-notification-tailwind/assets/6475893/6122446f-5adc-4463-ba84-77a262548e09)
+<video src="https://github.com/user-attachments/assets/3e11d29a-a06d-402a-99c8-8666d2510c64" controls></video>
 
 ## 📝 Inspiração
 - [React Hot Toast](https://react-hot-toast.com/)
